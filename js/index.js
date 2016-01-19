@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+$('document').ready(function() {
     var images = [ 
         { 
             name: ['new york', 'ny', 'NYC'],
@@ -16,14 +16,18 @@ $(document).ready(function() {
 		    src: '../images/sf.jpg'
 		},
 		{
-		    name: ['sydney', 'syd']
+		    name: ['sydney', 'syd'],
 		    src: '../images/sydney.jpg'
 		}
 ];
+    $('#submit-btn').click(function(e) {
+        e.preventDefault();
+        console.log('button clicked');
+        images.forEach()
+    });
     
-    
-}
+});
 
 /* 
-
+Use the .css function of Jquery to change the background
 */
