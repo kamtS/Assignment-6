@@ -2,16 +2,16 @@
 $('document').ready(function() {
     var images = [ 
         { 
-            name: ['new york', 'ny', 'nyc'],
+            name: ['new york', 'ny', 'nyc', 'new york city'],
 		    src: 'images/nyc.jpg'},
 		{ 
-		    name: ['austin'],
+		    name: ['austin', 'atx'],
 		    src: 'images/austin.jpg'},
 		{
 		    name: ['la', 'los angeles', 'lax'],
 		    src: 'images/la.jpg'},
 		{
-		    name: ['sf', 'san fransisco', 'san fran'],
+		    name: ['sf', 'san fransisco', 'san fran', 'bay area'],
 		    src: 'images/sf.jpg'},
 		{
 		    name: ['sydney', 'syd'],
